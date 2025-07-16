@@ -2,41 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Conselho Tutelar Design System - Cores acolhedoras e institucionais */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 245 50% 98%;
+    --foreground: 200 15% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 200 15% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 200 15% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 200 85% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 200 85% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 35 15% 85%;
+    --secondary-foreground: 200 15% 25%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 35 25% 75%;
+    --accent-foreground: 200 15% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 200 85% 35%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Gradientes acolhedores */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-card: linear-gradient(180deg, hsl(var(--background)), hsl(var(--card)));
+    --gradient-button: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    
+    /* Cores específicas do tema */
+    --protection-color: 120 50% 50%;
+    --education-color: 45 90% 55%;
+    --support-color: 280 50% 60%;
+    --warning-color: 25 85% 55%;
+    
+    /* Sombras suaves */
+    --shadow-soft: 0 4px 12px -4px hsl(var(--primary) / 0.15);
+    --shadow-card: 0 2px 8px -2px hsl(var(--foreground) / 0.1);
+    --shadow-button: 0 4px 12px -4px hsl(var(--primary) / 0.3);
+
+    /* Animações */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -102,4 +123,56 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@layer components {
+  .hero-section {
+    @apply bg-gradient-to-br from-primary to-primary-glow text-primary-foreground;
+  }
+  
+  .card-soft {
+    @apply bg-card rounded-lg shadow-[var(--shadow-card)] transition-[var(--transition-smooth)] hover:shadow-[var(--shadow-soft)];
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary to-primary-glow text-primary-foreground shadow-[var(--shadow-button)] hover:shadow-lg transition-[var(--transition-smooth)] hover:scale-105;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground border border-border hover:bg-accent transition-[var(--transition-smooth)];
+  }
+  
+  .btn-danger {
+    @apply bg-destructive text-destructive-foreground shadow-[var(--shadow-button)] hover:shadow-lg transition-[var(--transition-smooth)] hover:scale-105;
+  }
+  
+  .protection-theme {
+    @apply bg-green-50 border-green-200 text-green-800;
+  }
+  
+  .education-theme {
+    @apply bg-yellow-50 border-yellow-200 text-yellow-800;
+  }
+  
+  .support-theme {
+    @apply bg-purple-50 border-purple-200 text-purple-800;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 }
