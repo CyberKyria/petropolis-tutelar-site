@@ -25,7 +25,7 @@ export default function HomePage() {
               <p className="text-xl mb-12 text-primary-foreground/90">
                 Como denunciar uma situação de risco?
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-center items-center mt-8 lg:ml-12">
                 <Button asChild className="btn-primary text-lg px-8 py-4">
                   <Link to="/conselho-tutelar">
                     SAIBA MAIS SOBRE O CONSELHO TUTELAR
@@ -34,7 +34,7 @@ export default function HomePage() {
                 <Button 
                   asChild 
                   variant="outline" 
-                  className="text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-primary"
+                  className="text-lg px-8 py-4 border-white bg-white/10 text-white hover:bg-white hover:text-primary"
                 >
                   <Link to="/como-denunciar">
                     Como denunciar uma situação de risco?
