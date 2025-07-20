@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Shield, Users, FileText, Phone, Heart, GraduationCap, ArrowRight } from "lucide-react";
@@ -21,10 +22,10 @@ export default function HomePage() {
                 CONHEÇA E DEFENDA OS DIREITOS DE 
                 <span className="block text-yellow-300">CRIANÇAS E ADOLESCENTES</span>
               </h1>
-              <p className="text-xl mb-8 text-primary-foreground/90">
+              <p className="text-xl mb-12 text-primary-foreground/90">
                 Como denunciar uma situação de risco?
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild className="btn-primary text-lg px-8 py-4">
                   <Link to="/conselho-tutelar">
                     SAIBA MAIS SOBRE O CONSELHO TUTELAR
