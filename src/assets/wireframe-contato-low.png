@@ -1,0 +1,68 @@
+
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="60" y="45" font-family="Arial" font-size="16" font-weight="bold">LOGO</text>
+  <text x="600" y="45" font-family="Arial" font-size="14">Navigation Menu</text>
+  
+  <!-- Hero Section -->
+  <rect x="0" y="80" width="1200" height="200" fill="#e8f5e8" stroke="#4caf50" stroke-width="2"/>
+  <text x="600" y="160" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">FALE CONOSCO</text>
+  <text x="600" y="190" font-family="Arial" font-size="16" text-anchor="middle">Entre em contato</text>
+  
+  <!-- Content Grid -->
+  <text x="600" y="320" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">CONTATO</text>
+  
+  <!-- Form Section -->
+  <rect x="100" y="350" width="500" height="350" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="350" y="380" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Envie sua mensagem</text>
+  
+  <!-- Form Fields -->
+  <rect x="120" y="400" width="460" height="25" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="130" y="417" font-family="Arial" font-size="12" fill="#666">Nome Completo</text>
+  
+  <rect x="120" y="440" width="460" height="25" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="130" y="457" font-family="Arial" font-size="12" fill="#666">E-mail</text>
+  
+  <rect x="120" y="480" width="460" height="25" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="130" y="497" font-family="Arial" font-size="12" fill="#666">Telefone</text>
+  
+  <rect x="120" y="520" width="460" height="25" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="130" y="537" font-family="Arial" font-size="12" fill="#666">Assunto</text>
+  
+  <rect x="120" y="560" width="460" height="80" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="130" y="577" font-family="Arial" font-size="12" fill="#666">Mensagem</text>
+  
+  <rect x="250" y="660" width="200" height="30" fill="#4caf50" stroke="#4caf50"/>
+  <text x="350" y="680" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">ENVIAR</text>
+  
+  <!-- Contact Info -->
+  <rect x="650" y="350" width="400" height="350" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="850" y="380" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Informações de Contato</text>
+  
+  <rect x="670" y="400" width="360" height="60" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="850" y="420" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Telefones</text>
+  <text x="850" y="440" font-family="Arial" font-size="12" text-anchor="middle">(24) 2233-0000</text>
+  <text x="850" y="455" font-family="Arial" font-size="12" text-anchor="middle">Plantão 24h</text>
+  
+  <rect x="670" y="480" width="360" height="60" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="850" y="500" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Endereço</text>
+  <text x="850" y="520" font-family="Arial" font-size="12" text-anchor="middle">Rua do Imperador, 350</text>
+  <text x="850" y="535" font-family="Arial" font-size="12" text-anchor="middle">Centro - Petrópolis/RJ</text>
+  
+  <rect x="670" y="560" width="360" height="60" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="850" y="580" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Horário</text>
+  <text x="850" y="600" font-family="Arial" font-size="12" text-anchor="middle">Segunda a Sexta: 8h às 17h</text>
+  <text x="850" y="615" font-family="Arial" font-size="12" text-anchor="middle">Plantão 24h</text>
+  
+  <rect x="670" y="640" width="360" height="60" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="850" y="660" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Redes Sociais</text>
+  <text x="850" y="680" font-family="Arial" font-size="12" text-anchor="middle">Facebook | Instagram</text>
+  
+  <!-- Map Section -->
+  <rect x="200" y="730" width="800" height="50" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="600" y="760" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">MAPA</text>
+</svg>

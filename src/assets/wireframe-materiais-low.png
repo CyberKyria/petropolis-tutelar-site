@@ -1,0 +1,66 @@
+
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="60" y="45" font-family="Arial" font-size="16" font-weight="bold">LOGO</text>
+  <text x="600" y="45" font-family="Arial" font-size="14">Navigation Menu</text>
+  
+  <!-- Hero Section -->
+  <rect x="0" y="80" width="1200" height="200" fill="#e1f5fe" stroke="#03a9f4" stroke-width="2"/>
+  <text x="600" y="160" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">MATERIAIS EDUCATIVOS</text>
+  <text x="600" y="190" font-family="Arial" font-size="16" text-anchor="middle">Cartilhas, vídeos e recursos</text>
+  
+  <!-- Filters -->
+  <rect x="0" y="280" width="1200" height="60" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="100" y="315" font-family="Arial" font-size="14">Buscar...</text>
+  <text x="600" y="315" font-family="Arial" font-size="14">Filtro Tipo</text>
+  <text x="800" y="315" font-family="Arial" font-size="14">Filtro Público</text>
+  
+  <!-- Materials Grid -->
+  <text x="600" y="375" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">MATERIAIS DISPONÍVEIS</text>
+  
+  <!-- Material Cards -->
+  <rect x="100" y="400" width="300" height="150" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="250" y="430" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Cartilha ECA</text>
+  <text x="250" y="450" font-family="Arial" font-size="12" text-anchor="middle">Para Crianças</text>
+  <text x="250" y="470" font-family="Arial" font-size="12" text-anchor="middle">PDF</text>
+  <text x="250" y="530" font-family="Arial" font-size="12" text-anchor="middle">[DOWNLOAD]</text>
+  
+  <rect x="450" y="400" width="300" height="150" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="600" y="430" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Guia Pais</text>
+  <text x="600" y="450" font-family="Arial" font-size="12" text-anchor="middle">Para Pais</text>
+  <text x="600" y="470" font-family="Arial" font-size="12" text-anchor="middle">PDF</text>
+  <text x="600" y="530" font-family="Arial" font-size="12" text-anchor="middle">[DOWNLOAD]</text>
+  
+  <rect x="800" y="400" width="300" height="150" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="950" y="430" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Vídeo Abuso</text>
+  <text x="950" y="450" font-family="Arial" font-size="12" text-anchor="middle">Educadores</text>
+  <text x="950" y="470" font-family="Arial" font-size="12" text-anchor="middle">Vídeo</text>
+  <text x="950" y="530" font-family="Arial" font-size="12" text-anchor="middle">[DOWNLOAD]</text>
+  
+  <!-- Second Row -->
+  <rect x="100" y="580" width="300" height="150" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="250" y="610" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Infográfico</text>
+  <text x="250" y="630" font-family="Arial" font-size="12" text-anchor="middle">Profissionais</text>
+  <text x="250" y="650" font-family="Arial" font-size="12" text-anchor="middle">Imagem</text>
+  <text x="250" y="710" font-family="Arial" font-size="12" text-anchor="middle">[DOWNLOAD]</text>
+  
+  <rect x="450" y="580" width="300" height="150" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="600" y="610" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Manual CT</text>
+  <text x="600" y="630" font-family="Arial" font-size="12" text-anchor="middle">Profissionais</text>
+  <text x="600" y="650" font-family="Arial" font-size="12" text-anchor="middle">PDF</text>
+  <text x="600" y="710" font-family="Arial" font-size="12" text-anchor="middle">[DOWNLOAD]</text>
+  
+  <rect x="800" y="580" width="300" height="150" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="950" y="610" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Bullying</text>
+  <text x="950" y="630" font-family="Arial" font-size="12" text-anchor="middle">Educadores</text>
+  <text x="950" y="650" font-family="Arial" font-size="12" text-anchor="middle">PDF</text>
+  <text x="950" y="710" font-family="Arial" font-size="12" text-anchor="middle">[DOWNLOAD]</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="780" width="1200" height="20" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="600" y="793" font-family="Arial" font-size="12" text-anchor="middle">Footer</text>
+</svg>

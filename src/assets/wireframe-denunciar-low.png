@@ -1,0 +1,55 @@
+
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="60" y="45" font-family="Arial" font-size="16" font-weight="bold">LOGO</text>
+  <text x="600" y="45" font-family="Arial" font-size="14">Navigation Menu</text>
+  
+  <!-- Hero Section -->
+  <rect x="0" y="80" width="1200" height="200" fill="#ffebee" stroke="#f44336" stroke-width="2"/>
+  <text x="600" y="160" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">COMO DENUNCIAR</text>
+  <text x="600" y="190" font-family="Arial" font-size="16" text-anchor="middle">Proteja crianças e adolescentes</text>
+  
+  <!-- Emergency Section -->
+  <rect x="200" y="310" width="800" height="80" fill="#f44336" stroke="#f44336"/>
+  <text x="600" y="340" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">EMERGÊNCIA</text>
+  <text x="600" y="365" font-family="Arial" font-size="16" fill="white" text-anchor="middle">DISQUE 100 - 24 HORAS</text>
+  
+  <!-- Channels Section -->
+  <text x="600" y="430" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">CANAIS DE DENÚNCIA</text>
+  
+  <rect x="100" y="460" width="300" height="120" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="250" y="490" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">TELEFONE</text>
+  <text x="250" y="510" font-family="Arial" font-size="12" text-anchor="middle">Disque 100</text>
+  <text x="250" y="530" font-family="Arial" font-size="12" text-anchor="middle">Conselho Tutelar</text>
+  <text x="250" y="550" font-family="Arial" font-size="12" text-anchor="middle">Polícia Civil</text>
+  
+  <rect x="450" y="460" width="300" height="120" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="600" y="490" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">PRESENCIAL</text>
+  <text x="600" y="510" font-family="Arial" font-size="12" text-anchor="middle">Conselho Tutelar</text>
+  <text x="600" y="530" font-family="Arial" font-size="12" text-anchor="middle">Delegacia</text>
+  <text x="600" y="550" font-family="Arial" font-size="12" text-anchor="middle">Ministério Público</text>
+  
+  <rect x="800" y="460" width="300" height="120" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="950" y="490" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">ONLINE</text>
+  <text x="950" y="510" font-family="Arial" font-size="12" text-anchor="middle">Site Gov.br</text>
+  <text x="950" y="530" font-family="Arial" font-size="12" text-anchor="middle">App Proteja Brasil</text>
+  <text x="950" y="550" font-family="Arial" font-size="12" text-anchor="middle">E-mail</text>
+  
+  <!-- When to Report -->
+  <text x="600" y="620" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">QUANDO DENUNCIAR</text>
+  
+  <rect x="200" y="650" width="800" height="100" fill="#fff3e0" stroke="#ffb74d" stroke-width="1"/>
+  <text x="220" y="675" font-family="Arial" font-size="12">• Violência física, sexual ou psicológica</text>
+  <text x="220" y="695" font-family="Arial" font-size="12">• Negligência ou abandono</text>
+  <text x="220" y="715" font-family="Arial" font-size="12">• Trabalho infantil</text>
+  <text x="220" y="735" font-family="Arial" font-size="12">• Exploração sexual</text>
+  
+  <text x="620" y="675" font-family="Arial" font-size="12">• Uso de drogas por menores</text>
+  <text x="620" y="695" font-family="Arial" font-size="12">• Evasão escolar</text>
+  <text x="620" y="715" font-family="Arial" font-size="12">• Situação de rua</text>
+  <text x="620" y="735" font-family="Arial" font-size="12">• Qualquer violação de direitos</text>
+</svg>

@@ -1,0 +1,58 @@
+
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#ffffff"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="url(#headerGrad)"/>
+  <text x="60" y="45" font-family="Arial" font-size="18" font-weight="bold" fill="white">Conselho Tutelar</text>
+  <text x="600" y="45" font-family="Arial" font-size="14" fill="white">Home | Conselho Tutelar | ECA | Como Denunciar | Materiais | Cursos | Contato</text>
+  
+  <!-- Hero Section -->
+  <rect x="0" y="80" width="1200" height="200" fill="url(#heroGrad)"/>
+  <circle cx="300" cy="180" r="40" fill="white" fill-opacity="0.2"/>
+  <text x="300" y="190" font-family="Arial" font-size="24" fill="white" text-anchor="middle">🛡️</text>
+  
+  <text x="600" y="160" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">O que é o Conselho Tutelar</text>
+  <text x="600" y="190" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Órgão permanente e autônomo encarregado de zelar pelos direitos</text>
+  <text x="600" y="210" font-family="Arial" font-size="18" fill="white" text-anchor="middle">da criança e do adolescente</text>
+  
+  <!-- Content Section -->
+  <rect x="0" y="280" width="1200" height="400" fill="#f5f5f5"/>
+  <text x="600" y="320" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">História e Papel na Sociedade</text>
+  
+  <!-- History Card -->
+  <rect x="98" y="348" width="504" height="304" fill="#00000020" rx="8"/>
+  <rect x="100" y="350" width="500" height="300" fill="white" stroke="#e0e0e0" stroke-width="1" rx="8"/>
+  <circle cx="150" cy="390" r="20" fill="#1976d2"/>
+  <text x="150" y="398" font-family="Arial" font-size="16" fill="white" text-anchor="middle">📚</text>
+  <text x="200" y="395" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Como surgiu no Brasil</text>
+  <text x="120" y="420" font-family="Arial" font-size="14" fill="#666">• Lei 8.069/90 - Criação do ECA</text>
+  <text x="120" y="440" font-family="Arial" font-size="14" fill="#666">• Proteção integral à infância</text>
+  <text x="120" y="460" font-family="Arial" font-size="14" fill="#666">• Municipalização do atendimento</text>
+  <text x="120" y="480" font-family="Arial" font-size="14" fill="#666">• Paradigma de direitos</text>
+  <text x="120" y="500" font-family="Arial" font-size="14" fill="#666">• Eleição pela comunidade</text>
+  
+  <!-- Role Card -->
+  <rect x="648" y="348" width="454" height="304" fill="#00000020" rx="8"/>
+  <rect x="650" y="350" width="450" height="300" fill="white" stroke="#e0e0e0" stroke-width="1" rx="8"/>
+  <circle cx="700" cy="390" r="20" fill="#4caf50"/>
+  <text x="700" y="398" font-family="Arial" font-size="16" fill="white" text-anchor="middle">⚖️</text>
+  <text x="750" y="395" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Papel na Sociedade</text>
+  <text x="670" y="420" font-family="Arial" font-size="14" fill="#666">• Proteção de direitos</text>
+  <text x="670" y="440" font-family="Arial" font-size="14" fill="#666">• Atendimento de denúncias</text>
+  <text x="670" y="460" font-family="Arial" font-size="14" fill="#666">• Orientação e apoio</text>
+  <text x="670" y="480" font-family="Arial" font-size="14" fill="#666">• Aplicação de medidas</text>
+  <text x="670" y="500" font-family="Arial" font-size="14" fill="#666">• Articulação com rede</text>
+  
+  <!-- Contact Section -->
+  <rect x="0" y="680" width="1200" height="100" fill="#1976d2"/>
+  <text x="600" y="710" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Conselho Tutelar de Petrópolis</text>
+  <text x="300" y="735" font-family="Arial" font-size="14" fill="white" text-anchor="middle">📞 (24) 2233-0000</text>
+  <text x="600" y="735" font-family="Arial" font-size="14" fill="white" text-anchor="middle">📍 Rua do Imperador, 350</text>
+  <text x="900" y="735" font-family="Arial" font-size="14" fill="white" text-anchor="middle">⏰ 24h Plantão</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="780" width="1200" height="20" fill="#333"/>
+  <text x="600" y="793" font-family="Arial" font-size="12" fill="white" text-anchor="middle">© 2024 Conselho Tutelar de Petrópolis</text>
+</svg>

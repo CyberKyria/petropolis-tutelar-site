@@ -1,0 +1,85 @@
+
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#ffffff"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="url(#headerGrad)"/>
+  <text x="60" y="45" font-family="Arial" font-size="18" font-weight="bold" fill="white">Conselho Tutelar</text>
+  <text x="600" y="45" font-family="Arial" font-size="14" fill="white">Home | Conselho Tutelar | ECA | Como Denunciar | Materiais | Cursos | Contato</text>
+  
+  <!-- Hero Section -->
+  <rect x="0" y="80" width="1200" height="200" fill="#e8f5e8"/>
+  <circle cx="300" cy="180" r="40" fill="#4caf50" fill-opacity="0.2"/>
+  <text x="300" y="190" font-family="Arial" font-size="24" fill="#4caf50" text-anchor="middle">⚖️</text>
+  
+  <text x="600" y="160" font-family="Arial" font-size="28" font-weight="bold" fill="#2e7d32" text-anchor="middle">Conheça o ECA</text>
+  <text x="600" y="190" font-family="Arial" font-size="18" fill="#388e3c" text-anchor="middle">O Estatuto da Criança e do Adolescente é a lei que garante</text>
+  <text x="600" y="210" font-family="Arial" font-size="18" fill="#388e3c" text-anchor="middle">os direitos fundamentais de todas as crianças e adolescentes</text>
+  
+  <!-- Content Section -->
+  <rect x="0" y="280" width="1200" height="400" fill="#f5f5f5"/>
+  <text x="600" y="320" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">História e Principais Direitos</text>
+  
+  <!-- Timeline -->
+  <rect x="98" y="348" width="504" height="304" fill="#00000020" rx="8"/>
+  <rect x="100" y="350" width="500" height="300" fill="white" stroke="#e0e0e0" stroke-width="1" rx="8"/>
+  <circle cx="150" cy="390" r="20" fill="#ff9800"/>
+  <text x="150" y="398" font-family="Arial" font-size="16" fill="white" text-anchor="middle">📅</text>
+  <text x="200" y="395" font-family="Arial" font-size="18" font-weight="bold" fill="#333">História do ECA</text>
+  
+  <!-- Timeline elements -->
+  <rect x="120" y="420" width="360" height="2" fill="#e0e0e0"/>
+  <circle cx="140" cy="421" r="8" fill="#1976d2"/>
+  <text x="140" y="445" font-family="Arial" font-size="14" font-weight="bold" fill="#1976d2" text-anchor="middle">1990</text>
+  <circle cx="460" cy="421" r="8" fill="#1976d2"/>
+  <text x="460" y="445" font-family="Arial" font-size="14" font-weight="bold" fill="#1976d2" text-anchor="middle">2024</text>
+  
+  <text x="120" y="470" font-family="Arial" font-size="14" fill="#666">• Promulgado em 13 de julho de 1990</text>
+  <text x="120" y="490" font-family="Arial" font-size="14" fill="#666">• Substituiu o Código de Menores</text>
+  <text x="120" y="510" font-family="Arial" font-size="14" fill="#666">• 267 artigos garantindo direitos</text>
+  <text x="120" y="530" font-family="Arial" font-size="14" fill="#666">• Proteção integral</text>
+  <text x="120" y="550" font-family="Arial" font-size="14" fill="#666">• Mais de 30 anos de vigência</text>
+  
+  <!-- Rights Grid -->
+  <rect x="648" y="348" width="454" height="304" fill="#00000020" rx="8"/>
+  <rect x="650" y="350" width="450" height="300" fill="white" stroke="#e0e0e0" stroke-width="1" rx="8"/>
+  <circle cx="700" cy="390" r="20" fill="#4caf50"/>
+  <text x="700" y="398" font-family="Arial" font-size="16" fill="white" text-anchor="middle">🎓</text>
+  <text x="750" y="395" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Principais Direitos</text>
+  
+  <!-- Rights icons and text -->
+  <circle cx="690" cy="430" r="12" fill="#ffc107"/>
+  <text x="690" y="435" font-family="Arial" font-size="10" fill="white" text-anchor="middle">🎓</text>
+  <text x="710" y="435" font-family="Arial" font-size="14" fill="#666">Direito à Educação</text>
+  
+  <circle cx="690" cy="455" r="12" fill="#f44336"/>
+  <text x="690" y="460" font-family="Arial" font-size="10" fill="white" text-anchor="middle">❤️</text>
+  <text x="710" y="460" font-family="Arial" font-size="14" fill="#666">Direito à Saúde</text>
+  
+  <circle cx="690" cy="480" r="12" fill="#2196f3"/>
+  <text x="690" y="485" font-family="Arial" font-size="10" fill="white" text-anchor="middle">🛡️</text>
+  <text x="710" y="485" font-family="Arial" font-size="14" fill="#666">Proteção contra Violência</text>
+  
+  <circle cx="690" cy="505" r="12" fill="#9c27b0"/>
+  <text x="690" y="510" font-family="Arial" font-size="10" fill="white" text-anchor="middle">🏠</text>
+  <text x="710" y="510" font-family="Arial" font-size="14" fill="#666">Convivência Familiar</text>
+  
+  <circle cx="690" cy="530" r="12" fill="#ff5722"/>
+  <text x="690" y="535" font-family="Arial" font-size="10" fill="white" text-anchor="middle">🎨</text>
+  <text x="710" y="535" font-family="Arial" font-size="14" fill="#666">Lazer e Cultura</text>
+  
+  <!-- Download Section -->
+  <rect x="0" y="680" width="1200" height="100" fill="#4caf50"/>
+  <circle cx="500" cy="730" r="20" fill="white" fill-opacity="0.2"/>
+  <text x="500" y="738" font-family="Arial" font-size="16" fill="white" text-anchor="middle">📄</text>
+  <text x="600" y="720" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Baixe o ECA Completo</text>
+  <text x="600" y="745" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Tenha acesso ao texto integral do Estatuto</text>
+  
+  <rect x="720" y="710" width="160" height="40" fill="white" rx="20"/>
+  <text x="800" y="733" font-family="Arial" font-size="14" font-weight="bold" fill="#4caf50" text-anchor="middle">DOWNLOAD PDF</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="780" width="1200" height="20" fill="#333"/>
+  <text x="600" y="793" font-family="Arial" font-size="12" fill="white" text-anchor="middle">© 2024 Conselho Tutelar de Petrópolis</text>
+</svg>
